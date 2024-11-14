@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Test
+metadata:
+  name: example-test
+  description: An example entity of Kind: Test.
+spec:
+  owner: team-a
+  environment: test-environment
+  details: "Details about this test entity"
