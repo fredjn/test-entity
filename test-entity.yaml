@@ -1,9 +1,13 @@
 apiVersion: backstage.io/v1alpha1
-kind: Test
+kind: COmponent
 metadata:
   name: example-test
-  description: An example entity of Kind Test.
+  description: An example entity of a Test.
 spec:
+  type: Test
   owner: team-a
   environment: test-environment
-  details: "Details about this test entity"
+  TestDescription: 
+    Objective: "Details about this test entity"
+    ApprovalCriteria: "AppCrit"
+    TestSteps: "steps"
